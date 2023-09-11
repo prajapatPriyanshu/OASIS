@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(26, 26, 26);
+    color:white;
+}
+input{
+    height:70px;
+    width:70px;
+    border-radius:50px;
+    background-color: #3b3a37;
+    color: rgb(0, 253, 55);
+    border:0;
+    margin: 5px;
+    font-size: 27px;
+}
+hr{
+    width:95%;
+    background-color: #3b3a37;
+    border:0;
+    height:1px;
+}
+.result-box {
+    width:95%;
+    height:100px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    text-align: end;
+    border-radius: 0;
+}
+.num{
+    color: white;
+    font-size: 24px;
+}
+.equals{
+    background-color: rgba(0, 255, 55, 0.89);
+    color: white;
+    width: 150px
+}
+.outer-div{
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 13vh;
+    padding-left: 5px;
+    padding-right:5px;
+    padding-bottom: 10px;
+}
+.del-button{
+    font-size: 19px;
+    color: rgb(255, 95, 95);
+}
+.c-button{
+    font-size: 21px;
+    background-color: rgb(255, 95, 95);
+    color: white;
+}
+.bracket-button{
+    font-size: 19px;
+}
+td:hover{
+    filter: drop-shadow(0 0 6px #645c5c);
+}
