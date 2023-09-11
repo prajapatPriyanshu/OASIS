@@ -1,0 +1,12 @@
+** MySQL Database has been used in this project. **
+** MySQL Workbench has been used in this project. **
+** Below is the schema of the database used. **
+
+// create database
+CREATE DATABASE 14thmarchadv;
+
+// using the databse
+USE 14htmarchadv;
+
+// create table
+CREATE TABLE table_name (username varchar(20), password varchar(20));
